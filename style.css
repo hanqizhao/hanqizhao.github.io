@@ -590,12 +590,13 @@ section h2:hover {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 3rem;
 }
 
 .interest{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 24rem;
 }
@@ -604,7 +605,7 @@ section h2:hover {
   text-align: left;
   font-family: "videotype";
   font-size: 1.1rem;
-  margin: 1rem 1rem;
+  margin: 2rem 1rem 0rem 1rem;
   /* text line spacing */
   line-height: 2rem;
   color:#3b3b3b

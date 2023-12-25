@@ -22,24 +22,25 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Everything in its right place",
-    artist: "Radiohead",
+    name: "Highway to Oblivion",
+    artist: "DragonForce",
+    path: "https://cdn.jsdelivr.net/gh/hanqizhao/hanqizhao.github.io@main/music/01.%20Highway%20To%20Oblivion.mp3"
     // image: "",
     // redircet to my file
-    path: "https://ia802206.us.archive.org/18/items/kid-a-full-album/01%20-%20RADIOHEAD%20%28KID%20A%29%20-%20Everything%20in%20its%20right%20place.mp3"
+    // path: "https://ia802206.us.archive.org/18/items/kid-a-full-album/01%20-%20RADIOHEAD%20%28KID%20A%29%20-%20Everything%20in%20its%20right%20place.mp3"
   },
-  {
-    name: "Optimistic",
-    artist: "Radiohead",
-    // image: "",
-    path: "https://ia802206.us.archive.org/18/items/kid-a-full-album/06%20-%20RADIOHEAD%20%28KID%20A%29%20-%20Optimistic.mp3"
-  },
-  {
-    name: "Idioteque",
-    artist: "Radiohead",
-    // image: "",
-    path: "https://ia802206.us.archive.org/18/items/kid-a-full-album/08%20-%20RADIOHEAD%20%28KID%20A%29%20-%20Idioteque.mp3",
-  },
+  // {
+  //   name: "Optimistic",
+  //   artist: "Radiohead",
+  //   // image: "",
+  //   path: "https://ia802206.us.archive.org/18/items/kid-a-full-album/06%20-%20RADIOHEAD%20%28KID%20A%29%20-%20Optimistic.mp3"
+  // },
+  // {
+  //   name: "Idioteque",
+  //   artist: "Radiohead",
+  //   // image: "",
+  //   path: "https://ia802206.us.archive.org/18/items/kid-a-full-album/08%20-%20RADIOHEAD%20%28KID%20A%29%20-%20Idioteque.mp3",
+  // },
 ];
 
 

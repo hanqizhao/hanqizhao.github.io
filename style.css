@@ -413,7 +413,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   height: 140px;
   width: 140px;
   /* use the image from path */
-  background-image: url("pictures/__ia_thumb.jpg");
+  background-image: url("pictures/dragonforce.jpg");
   background-size: cover;
   border-radius: 15%;
 }

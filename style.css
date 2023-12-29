@@ -1,0 +1,397 @@
+
+/* add my own font */
+@font-face {
+  font-family: "better-vcr5.1";
+  src: url(fonts/better-vcr5.1.ttf);
+}
+@font-face {
+  font-family: "basis33";
+  src: url(fonts/basis33.ttf);
+}
+@font-face {
+  font-family: "blue-screen-font";
+  src: url(fonts/BlueScreenPersonalUseRegular-0W1M9.ttf);
+}
+@font-face {
+  font-family: "HABESHAPIXELS";
+  src: url(fonts/HABESHAPIXELS.ttf);
+  src: url(fonts/HABESHAPIXELS-Bold.ttf);
+}
+@font-face {
+  font-family: "VPPixel-Simplified";
+  src: url(fonts/VPPixel-Simplified.otf);
+}
+@font-face {
+  font-family: "JmhcthulhumbusarcadeRegular";
+  src: url(fonts/JmhcthulhumbusarcadeugRegular.ttf);
+}
+@font-face {
+  font-family: "Spyro2";
+  src: url(fonts/Spyro2.ttf);
+}
+@font-face {
+  font-family: "videotype";
+  src: url(fonts/videotype.ttf);
+}
+@font-face {
+  font-family: "QuinqueFive";
+  src: url(fonts/QuinqueFive.ttf);
+  src: url(fonts/QuinqueFive.otf);
+}
+@font-face {
+  font-family: "AppleGaramond";
+  src: url(fonts/AppleGaramond.ttf);
+}
+@font-face {
+  font-family: "plank";
+  src: url(fonts/PLANK___.TTF);
+}
+@font-face {
+  font-family: "roman";
+  src: url(fonts/times-new-roman-pixel.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  /* background-color: rgb(255, 255, 255); */
+  background-image: url('pictures/uhq5zTcMPM3tOW_fbUz4PayDt_5pkEXdyXXoRWs3XOg.png');
+  /* Specify background properties */
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed;
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  /* Smoothly transition the background color */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.ellipse-container {
+  position: relative;
+  height: 140px;
+  aspect-ratio: 3/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1.5%;
+}
+
+#app {
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+
+  margin: 1.5% auto 0 auto;
+  /* height: 349px;
+  width:  275px; */
+  height: 349px;
+  width:  275px;
+  background-color: transparent;
+
+}
+
+.top-deco{
+  margin-top: 40px;
+  width: 960px;
+  height: 141px;
+  background-image: url(pictures/untitled.png);
+  z-index: 0;
+}
+
+main {
+  position: relative;
+  width: 960px;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  align-items: center;
+  /* add shadow */
+  box-shadow: 0 0 5px #e0e0e0;
+  /* border-left: 1px solid rgb(138, 138, 138); */
+  /* border-right: 1px solid rgb(138, 138, 138); */
+}
+
+.top-section {
+  width: 960px;
+  padding: 0;
+  margin: 0rem 0px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.section0 {
+  width: 359px; 
+  height: 582px;
+  margin: 0rem 0px;
+  padding-bottom: 1rem;
+  /* border-left: 1px solid rgb(204, 204, 204); */
+  border-right: 1px solid rgb(204, 204, 204);
+}
+
+
+.section0 h2 {
+  text-align: center;
+  color: #f0f0f0;
+  text-shadow: 0 0 2.5px #ffffff;
+  font-family: "plank";
+  -webkit-font-smoothing: none;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  margin: 0rem auto 0rem auto;
+  width: 359px;
+  height: 48px;
+  background-size: cover;
+  padding-top: 0px;
+}
+
+.section0 img{
+  margin: 1.5rem 120px 0.9rem 120px;
+}
+
+
+.section0 p {
+  text-align: left;
+  font-family: "roman";
+  -webkit-font-smoothing: none;
+  font-size: 1rem;
+  margin: 6px 22px 16px 35px;
+  /* text line spacing */
+  line-height: 1.3rem;
+  color:#3b3b3b
+}
+
+.section0 h3 {
+  width: fit-content;
+  text-align: center;
+  color: #1a1a1a;
+  font-family: "AppleGaramond";
+  text-shadow: 0px 0px 1.5px #252525;
+  -webkit-font-smoothing: none;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  padding: 1rem 0rem 0rem 0rem;
+  margin: 2rem auto 0rem auto;
+}
+
+.section0 p1 {
+  text-align: center;
+  font-family: "roman";
+  -webkit-font-smoothing: none;
+  font-size: 1rem;
+  margin: 0px auto;
+  /* text line spacing */
+  line-height: 1.3rem;
+  color:#3b3b3b
+}
+
+.section0 p1 img{
+  text-align: center;
+  margin: 12px auto 0px auto;
+}
+
+.section2 {
+  width: 239px; 
+  height: 582px;
+  margin: 0rem auto; 
+  padding-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  /* border-left: 1px solid rgb(204, S204, 204); */
+  /* border-right: 1px solid rgb(204, 204, 204); */
+}
+
+.section2 h2 {
+  text-align: center;
+  color: #f0f0f0;
+  text-shadow: 0 0 2.5px #ffffff;
+  font-family: "plank";
+  -webkit-font-smoothing: none;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  margin: 0rem auto 0rem auto;
+  width: 240px;
+  height: 48px;
+  background-image: url("pictures/h2\ 240.png");
+  background-size: cover;
+  padding-top: 0px;
+}
+
+.topimg{
+  width: 190px;
+  height: 16px;
+  /* padding: 1.5rem 0rem 0rem 1.5rem; */
+  text-align: center;
+  margin: 0rem auto 0rem auto;
+  background-image: url(pictures/top.png);
+}
+
+.section2 p{
+  width: 190px;
+  /* padding: 1.5rem 0rem 0rem 1.5rem; */
+  text-align: center;
+  font-family: "roman";
+  -webkit-font-smoothing: none;
+  font-size: 1rem;
+  margin: 0rem auto 0rem auto;
+  text-decoration: none;
+  line-height: 1.3rem;
+  color:#3b3b3b;
+  background-image: url(pictures/middle.png);
+}
+
+.bottomimg{
+  width: 190px;
+  height: 16px;
+  /* padding: 1.5rem 0rem 0rem 1.5rem; */
+  text-align: center;
+  margin: 0rem auto 0rem auto;
+  background-image: url(pictures/bottom.png);
+}
+
+.bottom-section {
+  padding: 0;
+  width: 960px; /* Set the width you desire */
+  margin: 0rem 0px; /* Center the section on the page */
+  background-color: transparent;
+  text-decoration: none;
+
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bottom-section h2 {
+  text-align: center;
+  color: #f0f0f0;
+  text-shadow: 0 0 2.5px #ffffff;
+  font-family: "plank";
+  -webkit-font-smoothing: none;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+    width: 960px;
+    height: 28px;
+    background-image: url("pictures/h2\ 960.png");
+    background-size: cover;
+    margin: 0rem auto 0rem auto;
+    padding-top: 20px;
+}
+
+.interest-container {
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 0;
+  justify-content: space-evenly;
+} 
+
+.interest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  /* border-left: 1px solid rgb(112, 112, 112); */
+  /* border-right: 1px solid rgb(112, 112, 112); */
+}
+
+.interest h3 {
+  width: 240px;
+  height: 28px;
+  background-image: url("pictures/headerpgeneric190.png");
+  background-size: cover;
+  text-align: center;
+  color: #1a1a1a;
+  font-family: "AppleGaramond";
+  -webkit-font-smoothing: none;
+  text-shadow: 0 0 1px #000000;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  margin: 0rem auto 0rem auto;
+  padding-top: 7px;
+}
+
+.pictures-mapf {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  margin: -4px auto 0 auto;
+  text-align: center;
+}
+
+.interest p {
+  text-align: left;
+  font-family: "roman";
+  font-size: 1rem;
+  margin: 1rem 0.7rem 1rem 1.5rem;
+  /* text line spacing */
+  line-height: 1.3rem;
+  color:#3b3b3b
+}
+
+
+.section a{
+  text-decoration: none;
+  color: #242424;
+}
+.section a:hover { 
+  color: rgb(25, 0, 255);
+  text-shadow: 0 0 1px rgb(25, 0, 255);
+}
+
+
+.highlight {
+  color: rgb(73, 81, 196); /* or any other color you prefer */
+}
+
+.old-website {
+  width: 280px;
+  height: 180px;
+  text-align: center;
+  font-family: "roman";
+  font-size: 1rem;
+  /* text line spacing */
+  line-height: 1.4rem;
+  color:#3b3b3b;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  /* shadow */
+  box-shadow: 0 0 5px #e0e0e0;
+}
+
+.old-website p{
+  margin: 0.8rem 0.5rem 0.5rem 0.5rem;
+}
+
+.bottom-deco{
+  width: 960px;
+  height: 141px;
+  background-image: url(pictures/untitled1.png);
+  z-index: -1;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom-deco iframe{
+  padding: auto;
+  margin: 65px auto 0 auto;
+}
+
+.counter {
+  margin: 1rem;
+  text-align: center;
+  font-family: "roman";
+}
+
+

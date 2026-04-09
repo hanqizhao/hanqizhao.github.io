@@ -3,8 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Outer Website 3D Scene</title>
-    <script type="module" crossorigin src="/assets/index-Bazcr9c-.js"></script>
+    <script>
+      (() => {
+        const faviconCandidates = [
+          "/site-icons/favicon.ico",
+          "/site-icons/favicon.png",
+          "/site-icons/favicon.svg",
+        ];
+
+        const applyFavicon = (href, type) => {
+          const link = document.createElement("link");
+          link.rel = "icon";
+          link.href = href;
+          if (type) {
+            link.type = type;
+          }
+          document.head.appendChild(link);
+        };
+
+        const probeFavicon = async () => {
+          for (const href of faviconCandidates) {
+            try {
+              const response = await fetch(href, { method: "HEAD", cache: "no-cache" });
+              if (response.ok) {
+                applyFavicon(href, response.headers.get("content-type") || "");
+                return;
+              }
+            } catch {
+              // Ignore missing optional favicon candidates.
+            }
+          }
+        };
+
+        void probeFavicon();
+      })();
+    </script>
+    <title>Hanqi Zhao Website</title>
+    <script type="module" crossorigin src="/assets/index-CgYAasaD.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BcG1fKEi.css">
   </head>
   <body>

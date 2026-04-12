@@ -1,4 +1,4 @@
-import{i as e,n as t,t as n}from"./jsx-runtime-xty2or4m.js";import{a as r,n as i,t as a}from"./styled-components.browser.esm-UXiHu3Ep.js";import{t as o}from"./publicPath-CcT-ttOZ.js";var s=e(t(),1),c={fontFamily:`'Inter', 'Lucida Grande', 'Verdana', sans-serif`,fontSize:14,color:`#5d5d5d`,lineHeight:1.2,paragraphGap:18},l=i`
+import{i as e,n as t,t as n}from"./jsx-runtime-xty2or4m.js";import{a as r,n as i,t as a}from"./styled-components.browser.esm-UXiHu3Ep.js";import{t as o}from"./publicPath-CTds-oHY.js";var s=e(t(),1),c={fontFamily:`'Inter', 'Lucida Grande', 'Verdana', sans-serif`,fontSize:14,color:`#5d5d5d`,lineHeight:1.2,paragraphGap:18},l=i`
   font-family: ${c.fontFamily};
   font-size: ${c.fontSize}px;
   color: ${c.color};

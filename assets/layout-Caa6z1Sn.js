@@ -1,1 +1,0 @@
-var e={x:80,y:10},t={width:910,height:685},n=8,r=116,i=275,a={x:e.x+t.width+n,y:e.y},o={width:i,height:r*3},s={main:{position:{x:0,y:0}},equalizer:{position:{x:0,y:r}},playlist:{position:{x:0,y:r*2}}};a.x,a.y,a.x,a.y+r,a.x,a.y+r*2;export{s as n,o as r,a as t};

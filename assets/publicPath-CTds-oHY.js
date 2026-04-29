@@ -1,1 +1,0 @@
-var e=`/winxp`;function t(t=``){return t?/^(https?:)?\/\//i.test(t)||t.startsWith(`data:`)?t:t.startsWith(`/`)?`${e}${t}`:`${e}/${t}`:e}export{t};

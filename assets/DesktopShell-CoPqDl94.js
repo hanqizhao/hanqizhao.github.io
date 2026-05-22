@@ -1,1 +1,0 @@
-import"./winxp-core-DCDivdTE.js";import"./react-vendor-DbC8iAKZ.js";import{t as e}from"./winxp-shell-CRqVcIZz.js";export{e as default};

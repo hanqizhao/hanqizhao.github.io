@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-Cf3xff8G.js";import{cn as e}from"./winxp-core-CBk7ns0J.js";import"./react-vendor-DbC8iAKZ.js";e(document.getElementById(`root`));

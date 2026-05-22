@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-Cf3xff8G.js";import{cn as e}from"./winxp-core-DCDivdTE.js";import"./react-vendor-DbC8iAKZ.js";e(document.getElementById(`root`));

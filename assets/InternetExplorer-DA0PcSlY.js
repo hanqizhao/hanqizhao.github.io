@@ -1,0 +1,1 @@
+import{a as e}from"./winxp-core-CBk7ns0J.js";import"./react-vendor-DbC8iAKZ.js";export{e as default};

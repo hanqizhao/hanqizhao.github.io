@@ -3,49 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script>
-      (() => {
-        const faviconCandidates = [
-          "/site-icons/favicon.svg",
-          "/site-icons/favicon.png",
-          "/site-icons/favicon.ico",
-        ];
-
-        const applyFavicon = (href, type) => {
-          const link = document.createElement("link");
-          link.rel = "icon";
-          link.href = href;
-          if (type) {
-            link.type = type;
-          }
-          document.head.appendChild(link);
-        };
-
-        const probeFavicon = async () => {
-          for (const href of faviconCandidates) {
-            try {
-              const response = await fetch(href, { method: "HEAD", cache: "no-cache" });
-              if (response.ok) {
-                applyFavicon(href, response.headers.get("content-type") || "");
-                return;
-              }
-            } catch {
-              // Ignore missing optional favicon candidates.
-            }
-          }
-        };
-
-        void probeFavicon();
-      })();
-    </script>
+    <link rel="icon" href="/site-icons/favicon.svg" type="image/svg+xml" />
     <title>Hanqi Zhao Website</title>
-    <script type="module" crossorigin src="/assets/main-CzRqobmG.js"></script>
+    <script type="module" crossorigin src="/assets/main-KJ6Yn3pO.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-Cf3xff8G.js">
-    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-BVbofQct.js">
-    <link rel="modulepreload" crossorigin href="/assets/react-vendor-DbC8iAKZ.js">
-    <link rel="modulepreload" crossorigin href="/assets/winxp-core-CBk7ns0J.js">
-    <link rel="modulepreload" crossorigin href="/assets/three-vendor-ezp25pWM.js">
-    <link rel="stylesheet" crossorigin href="/assets/winxp-core-BSxTm-g0.css">
+    <link rel="modulepreload" crossorigin href="/assets/preload-helper-DWTEM3RW.js">
+    <link rel="modulepreload" crossorigin href="/assets/three-vendor-46HZT5qf.js">
+    <link rel="modulepreload" crossorigin href="/assets/desktopPresentationProfile-CxyoU_8r.js">
+    <link rel="modulepreload" crossorigin href="/assets/runtimeBridge-BbQNkrZH.js">
     <link rel="stylesheet" crossorigin href="/assets/main-BcG1fKEi.css">
   </head>
   <body>

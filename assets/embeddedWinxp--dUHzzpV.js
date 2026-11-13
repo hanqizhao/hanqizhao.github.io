@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-Cf3xff8G.js";import"./runtimeBridge-DiqJiUi9.js";import"./react-vendor-aHYhdYD6.js";import{t as e}from"./createWinXPHost-BGy2zRi_.js";import"./globalAudio-DDKx6bqK.js";import"./DesktopPreparationContext-Bgx_rmu8.js";import"./DesktopViewportContext-BvIqTV0r.js";e(document.getElementById(`root`));
